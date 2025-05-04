@@ -1,0 +1,20 @@
+.information {
+    background: #dfdfdf;
+    border: 1px solid #ccc;
+    width: 30%;
+    height: 30%;
+    margin: 0;
+    text-align: center;
+
+    /* Добавляем вертикальное центрирование */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Опционально - для лучшего отображения текста */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100px;
+    color: rgba(67, 67, 67, 0.75);
+    transition: 1s all;
+    font-weight: bold;
+}
